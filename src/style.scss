@@ -1,0 +1,39 @@
+.grid-block {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-block.columns-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-block.columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-block.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-block.columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-block.columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-block.columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+//Section block styling 
+.section-block {
+  padding: var(--padding, 20px);
+  background-color: var(--background-color, #ffffff);
+}
+
+//Margin block styling
+.margin-block {
+  margin: var(--margin, 0px);
+}
